@@ -1,0 +1,131 @@
+@import "../../global.scss";
+
+.works {
+  background-color: rgb(72,146,155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 90%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 60%;
+        height: 90%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 1s ease;
+
+        &:hover{
+          transform: scale(1.04);
+      }
+
+        @include mobile {
+          width: 80%;
+          height: 150px;
+          margin: 15px 0;
+        }
+        .top {
+          flex: 9;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          @include mobile{
+            flex: 8;
+          }
+
+          img {
+            width: 70%;
+            transform: rotate(-10deg);
+          }
+        }
+
+        .bottom {
+          flex: 3;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          @include mobile{
+            flex: 4;
+          }
+
+          .bottomContainer {
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            h2 {
+              font-size: 20px;
+
+              @include mobile{
+                font-size: 13px;
+              }
+            }
+            p {
+              font-size: 13px;
+              @include mobile{
+                display: none;
+              }
+            }
+            span {
+              font-size: 20px;
+              font-weight: 600;
+              text-decoration: underline;
+
+              @include mobile{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
