@@ -15,20 +15,20 @@ function Portfolio() {
   const list = [
     {
       id:"myStack",
-      title:"My Stack",
+      title:"Web App Stack",
     },
     {
       id:"myPlatforms",
-      title:"My Platforms",
+      title:"ML & AI Tools",
     },
     {
       id:"aiandml",
       title:"Ai & ML Projects",
     },
-    {
+    /*{
       id:"me",
       title:"Me",
-    },
+    },*/
   ]
   
 useEffect(()=>{
@@ -42,9 +42,9 @@ useEffect(()=>{
     case "aiandml":
       setData(aiandml);
       break;
-    case "me":
+    /*case "me":
       setData(me);
-      break;
+      break;*/
     default:
       setData(myStack)
   }

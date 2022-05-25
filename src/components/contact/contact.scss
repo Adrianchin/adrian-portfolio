@@ -9,11 +9,11 @@
   }
 
   .left {
-    flex: 2;
+    flex: 1.5;
     overflow: hidden;
 
     @include mobile {
-      flex: 1;
+      flex: 2.5;
     }
 
     img {
@@ -31,41 +31,6 @@
       font-size: 30px;
     }
     
-    form {
-      width: 70%;
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-
-      @include mobile {
-      height: 200px;
-      justify-content: center;
-      }
-
-      input {
-        width: 300px;
-        height: 30px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 20px;
-        }
-      }
-
-      textarea {
-        width: 300px;
-        height: 200px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 100px;
-        }
-      }
-
       button {
         width: 150px;
         height: 30px;
@@ -79,10 +44,8 @@
         &:focus {
           outline: none;
         }
-      }
-
-      span {
-        color: green;
+        &:hover{
+          transform: scale(1.04);
       }
     }
   }

@@ -6,26 +6,33 @@ function Works() {
   const data=[
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Full Stack Ai and ML Application",
+      title: "Full Stack AI and ML Application",
       desc:
         `Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NPL) for Japanese.`,
       img:
         "./assets/projects/image-to-text.png",
+      link:
+        `http://35.233.167.60:3000/`,
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "My Github",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Roll over to my Github and see what I'm currently working on!",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "./assets/me_ride.jpg",
+      link:
+      `https://github.com/Adrianchin`,
     },
   ]
 
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
   const handleClick = (event)=>{
-    event === "left" ? setCurrentSlider(currentSlider > 0 ? currentSlider-1 : 2) : setCurrentSlider(currentSlider < data.length-1 ?currentSlider+1 : 0)
+    event === "left" ? setCurrentSlider(currentSlider > 0 ? currentSlider-1 : 1) : setCurrentSlider(currentSlider < data.length-1 ?currentSlider+1 : 0)
   }//If click left and current slider is less than 0, then move to #2. Else, minus 1. Else (right click) if current slider is less than data.length, +1. Else, = 0 (max, go back to 0)
 
   return (
@@ -33,7 +40,7 @@ function Works() {
         <div className="slider" style={{transform: `translateX(-${currentSlider * 100}vw)`}}>
           {data.map((data)=> (
           <div className='container' key={data.id}>
-            <div className="item">
+            <div className="item" onClick={() => openInNewTab(data.link)}>
               <div className="top">
                 <img
                 src={data.img}

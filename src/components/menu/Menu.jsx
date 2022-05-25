@@ -12,13 +12,10 @@ function Menu(props) {
                 <a href='#intro'>Home</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
-                <a href='#portfolio'>Portfolio</a>
+                <a href='#portfolio'>About Me</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
-                <a href='#works'>Works</a>
-            </li>
-            <li onClick={()=>setMenuOpen(false)}>
-                <a href='#testimonials'>Testimonials</a>
+                <a href='#works'>Features</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
                 <a href='#contact'>Contact</a>

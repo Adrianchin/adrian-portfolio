@@ -9,7 +9,8 @@ export const myStack = [
       id: 2,
       title: "Express",
       img:
-        "assets/mystack/express.svg",    },
+        "assets/mystack/express.svg",    
+      },
     {
       id: 3,
       title: "React",
@@ -21,6 +22,34 @@ export const myStack = [
       title: "NodeJS",
       img:
       "assets/mystack/nodejs.svg",
+    },
+    {
+      id: 5,
+      title: "Docker",
+      img: 
+      "assets/platforms/docker.svg",
+    },
+    {
+      id: 6,
+      title: "Google Cloud",
+      img: 
+      "assets/platforms/google-cloud.svg",
+    },
+  ];
+  
+  export const myPlatforms = [
+
+    {
+      id: 3,
+      title: "TensorFlow 2",
+      img: 
+      "assets/platforms/tensorflow2.svg",
+    },
+    {
+      id: 4,
+      title: "Scikit-Learn",
+      img: 
+      "assets/platforms/sklearn.svg",
     },
     {
       id: 5,
@@ -36,27 +65,6 @@ export const myStack = [
     },
   ];
   
-  export const myPlatforms = [
-    {
-      id: 1,
-      title: "Docker",
-      img: 
-      "assets/platforms/docker.svg",
-    },
-    {
-      id: 2,
-      title: "Google Cloud",
-      img: 
-      "assets/platforms/google-cloud.svg",
-    },
-    {
-      id: 3,
-      title: "Heroku",
-      img: 
-      "assets/platforms/heroku.svg",
-    },
-  ];
-  
   export const aiandml = [
     {
       id: 1,
@@ -66,9 +74,9 @@ export const myStack = [
     },
     {
       id: 2,
-      title: "Image to Text",
+      title: "Dog Breed Image Classifier",
       img:
-        "assets/aiandml/imagetotext.png",
+        "assets/aiandml/dogbreed.png",
     },
     {
       id: 3,
@@ -78,7 +86,7 @@ export const myStack = [
     },
     {
       id: 4,
-      title: "Machine Translation",
+      title: "Image to Text and Machine Translation",
       img:
         "assets/aiandml/machinetranslation.png",
     },
@@ -93,7 +101,7 @@ export const myStack = [
     },
     {
       id: 2,
-      title: "Speak & Read Japanese",
+      title: "Proficient in Japanese",
       img:
         "assets/me/japanese.png",
     },
