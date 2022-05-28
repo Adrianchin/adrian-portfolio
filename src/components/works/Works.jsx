@@ -6,7 +6,7 @@ function Works() {
   const data=[
     {
       id: "1",
-      title: "Full Stack AI and ML Application",
+      title: "Full Stack AI and ML Application - Login - Username: Guest - Password: Guest",
       desc:
         `Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NPL) for Japanese.`,
       img:
