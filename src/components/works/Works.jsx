@@ -6,9 +6,9 @@ function Works() {
   const data=[
     {
       id: "1",
-      title: "Full Stack AI and ML Application - Login - Username: Guest - Password: Guest",
+      title: " Login - Username: Guest - Password: Guest",
       desc:
-        `Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NPL) for Japanese.`,
+        `Full Stack AI and ML Application: Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NPL) for Japanese.`,
       img:
         "./assets/projects/image-to-text.png",
       link:
@@ -20,7 +20,7 @@ function Works() {
       desc:
         "Roll over to my Github and see what I'm currently working on!",
       img:
-        "./assets/me_ride.jpg",
+        "assets/work_together.jpg",
       link:
       `https://github.com/Adrianchin`,
     },
