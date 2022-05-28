@@ -20,7 +20,7 @@ function Works() {
       desc:
         "Roll over to my Github and see what I'm currently working on!",
       img:
-        "assets/work_together.jpg",
+        "./assets/me_ride.jpg",
       link:
       `https://github.com/Adrianchin`,
     },
