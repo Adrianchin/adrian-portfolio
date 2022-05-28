@@ -34,7 +34,8 @@
                 margin-left: 30px;
 
                 @include mobile{
-                    display: none;
+                    margin-left: 0px;
+                    margin-right: 10px;
                 }
             }
 
@@ -46,6 +47,11 @@
             span{
                 font-size: 15px;
                 font-weight: 500;
+                
+                h2{
+                    font-size: 20px;
+                    cursor: pointer;
+                }
             }
         }
 
@@ -65,7 +71,7 @@
                     background-color: $mainColor;
                     transform-origin: left;
                     transition: all 2s ease;
-                }
+                }                
             }
         }
     }

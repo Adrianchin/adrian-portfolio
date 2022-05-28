@@ -4,6 +4,12 @@ import "./topbar.scss";
 function Topbar(props) {
     const menuOpen = props.menuOpen;
     const setMenuOpen = props.setMenuOpen;
+
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+        if (newWindow) newWindow.opener = null;
+      };
+
   return (
     <div className={"topbar " + (menuOpen && "active")}>
         <div className="wrapper">
@@ -12,7 +18,7 @@ function Topbar(props) {
                 <div className="itemContainer">
                     <div className="icon"/>
                     <span>
-                        mr.adrian.chin@gmail.com
+                        <h2 onClick={() => openInNewTab("https://drive.google.com/file/d/1mdTgr2t_wOEFoSrkXML-HPgfPJhJ2ctl/view?usp=sharing")}>My Resume</h2>
                     </span>
                 </div>
             </div>
