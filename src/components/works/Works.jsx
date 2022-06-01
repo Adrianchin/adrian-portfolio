@@ -8,7 +8,7 @@ function Works() {
       id: "1",
       title: " Login - Username: Guest - Password: Guest",
       desc:
-        `Full Stack AI and ML Application: Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NPL) for Japanese.`,
+        `Full Stack AI and ML Application: Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese.`,
       img:
         "./assets/projects/image-to-text.png",
       link:
