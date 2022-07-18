@@ -6,16 +6,6 @@ function Works() {
   const data=[
     {
       id: "1",
-      title: "Login - Username: Guest - Password: Guest",
-      desc:
-        `Full Stack AI and ML Application: Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese.`,
-      img:
-        "./assets/projects/image-to-text.png",
-      link:
-        `http://35.233.167.60:3000/`,
-    },
-    {
-      id: "2",
       title: "A Full Stack Al and ML E-commerce Smart Glasses Application.",
       desc:
         `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations and Algorithms are Tested with High Coverage`,
@@ -23,6 +13,16 @@ function Works() {
         "./assets/projects/facemesh.png",
       link:
         `https://smart-glasses-client.herokuapp.com/`,
+    },
+    {
+      id: "2",
+      title: "A Full Stack AI and ML Japanese Language Application. Login - Username: Guest - Password: Guest",
+      desc:
+        `Deployed with Docker in GCE. Features include Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese.`,
+      img:
+        "./assets/projects/image-to-text.png",
+      link:
+        `http://35.233.167.60:3000/`,
     },
     {
       id: "3",
