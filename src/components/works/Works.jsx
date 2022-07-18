@@ -6,7 +6,7 @@ function Works() {
   const data=[
     {
       id: "1",
-      title: " Login - Username: Guest - Password: Guest",
+      title: "Login - Username: Guest - Password: Guest",
       desc:
         `Full Stack AI and ML Application: Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese.`,
       img:
@@ -16,6 +16,16 @@ function Works() {
     },
     {
       id: "2",
+      title: "A Full Stack Al and ML E-commerce Smart Glasses Application.",
+      desc:
+        `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations and Algorithms are tested with high coverage`,
+      img:
+        "./assets/projects/facemesh.png",
+      link:
+        `https://smart-glasses-client.herokuapp.com/`,
+    },
+    {
+      id: "3",
       title: "My Github",
       desc:
         "Roll over to my Github and see what I'm currently working on!",
