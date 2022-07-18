@@ -18,7 +18,7 @@ function Works() {
       id: "2",
       title: "A Full Stack Al and ML E-commerce Smart Glasses Application.",
       desc:
-        `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations and Algorithms are tested with high coverage`,
+        `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations and Algorithms are Tested with High Coverage`,
       img:
         "./assets/projects/facemesh.png",
       link:
