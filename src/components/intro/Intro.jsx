@@ -11,7 +11,7 @@ function Intro() {
       showCursor:true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Engineer", "Triathlete"],
+      strings: ["a Developer", "an Engineer", "a Competitive Triathlete"],
     });
   },[]);
 
@@ -27,7 +27,7 @@ function Intro() {
             <h2>Hi there, I'm</h2>
             <h1>Adrian Chin</h1>
             <h3>
-              I am a <span ref={textRef}></span>
+              I am <span ref={textRef}></span>
             </h3>
           </div>
           <a href="#portfolio">
