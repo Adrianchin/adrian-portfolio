@@ -8,7 +8,7 @@ function Works() {
       id: "1",
       title: "A Full Stack Al and ML E-commerce Smart Glasses Application.",
       desc:
-        `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations and Algorithms are Tested with High Coverage`,
+        `Uses Convolutional Neural Networks to Predict Glasses for Customers. Calculations are Tested with High Coverage`,
       img:
         "./assets/projects/facemesh.png",
       link:
@@ -16,9 +16,9 @@ function Works() {
     },
     {
       id: "2",
-      title: "A Full Stack AI and ML Japanese Language Application. Login - Username: Guest - Password: Guest",
+      title: "A Full Stack AI and ML Japanese Language Application.",
       desc:
-        `Deployed with Docker in GCE. Features include Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese.`,
+        `Deployed with Docker in GCE. Optical Character Recognition (OCR) Machine Translation (MTL) and Natural Language Processing (NLP) for Japanese. Login: Username: Guest - Password: Guest`,
       img:
         "./assets/projects/image-to-text.png",
       link:
